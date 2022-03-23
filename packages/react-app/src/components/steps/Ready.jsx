@@ -52,15 +52,13 @@ export const Ready = ({ nextStep }) => {
     <>
       <StyledRow justify="center">
         <Col>
-          <Title level={2}>Calcula tus emisiones</Title>
+          <Title level={2}>Calculate your emissions</Title>
         </Col>
       </StyledRow>
       <StyledRow justify="center">
         <Col>
           <Text>
-            Contesta esta breve encuesta sobre tu estilo de vida, esto nos
-            ayudará a conocerte más en detalle y que puedas saber la huella que
-            generas en relación a este.
+            
           </Text>
         </Col>
       </StyledRow>
@@ -86,37 +84,33 @@ export const Ready = ({ nextStep }) => {
           <StyledRow>
             <Col>
               <StyledTitle level={4}>
-                Estos datos son calculados en base al promedio de tu país
+                Your footprint is calculated based on the average of your country
               </StyledTitle>
             </Col>
           </StyledRow>
           <StyledRow>
             <Col>
               <Text>
-                A medida que avances la información se actualizará de acuerdo a
-                lo que respondas.
+                
               </Text>
             </Col>
           </StyledRow>
           <StyledRow>
             <Col>
               <Text>
-                Algunas secciones cuentan con consultas simplificadas y otras
-                avanzadas, la diferencia es que mientras más detalles podamos
-                obtener de tu información es posible determinar tus emisiones de
-                forma más precisa.
+                You can choose to answer the simplified or the advance questions. The more details you provide, the more precise your footprint can be determined.
               </Text>
             </Col>
           </StyledRow>
           <StyledRow justify="space-between">
             <Col>
               <StyledTitle level={4}>
-                ¿Estás listo para hacer un cambio?
+                Are you ready to start your journey?
               </StyledTitle>
             </Col>
             <Col>
               <StyledButton $type="primary" onClick={() => handleOnClick()} disabled={loading}>
-                Comencemos
+                Calculate
               </StyledButton>
             </Col>
           </StyledRow>
