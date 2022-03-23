@@ -20,10 +20,10 @@ export const EnergyForm = ({
 
   return (
     <>
-      <RowLayout icon="icon/house.svg" title="Hogar">
+      <RowLayout icon="icon/house.svg" title="Home">
         <Row align="middle">
           <Col span={10}>
-            <InputLayout label="¿Cuántos viven en tu hogar?">
+            <InputLayout label="How many people live in your home">
               <InputNumber
                 min={0}
                 placeholder="2"
@@ -37,11 +37,11 @@ export const EnergyForm = ({
           <Col span={14}>
             <Col span={22}>
               <InputLayout
-                label="¿De qué tamaño es tu hogar? (en m2)"
+                label="How big is your house? (m2)"
                 margin={false}>
                 <InputNumber
                   min={0}
-                  placeholder="200 kms"
+                  placeholder="200 m2"
                   size="large"
                   style={{ width: '100%' }}
                   value={homeBig}
@@ -56,11 +56,11 @@ export const EnergyForm = ({
       <RowLayout
         align="middle"
         icon="icon/electricity.svg"
-        title="Electricidad">
+        title="Electricity">
         <InputLayout
-          label="¿Cuánta electricidad consumes al mes en tu hogar?"
+          label="How much electricity do you consume per month?"
           tooltip
-          tooltipText="Puedes revisar esta información en la boleta de tu proveedor. El promedio en Chile es de 200KWh.">
+          tooltipText="You can check on your electricity bill">
           <InputNumber
             min={0}
             placeholder="200 kw"
@@ -74,10 +74,9 @@ export const EnergyForm = ({
       <StyledDivider />
       <RowLayout align="middle" icon="icon/gas.svg" title="Gas">
         <InputLayout
-          label="¿Cuánto gas licuado consumes al mes?"
+          label="How much liquefied gas do you consume per month?"
           tooltip
-          tooltipText="Puedes calcular los kgs haciendo kg de balones/mes. Por ejemplo, si es un balón de 45kgs cada 3 meses, son
-15 kgs al mes.">
+          tooltipText="-">
           <InputNumber
             min={0}
             placeholder="15 kgs"
@@ -88,9 +87,9 @@ export const EnergyForm = ({
           />
         </InputLayout>
         <InputLayout
-          label="Si cuentas con gas natural, ¿Cuánto consumes al mes?"
+          label="How much natural gas do you consume per month?"
           tooltip
-          tooltipText="Puedes revisar esta información en la boleta de tu proveedor. Si no cuentas con este servicio pon 0.">
+          tooltipText="You can check on your gas bill">
           <InputNumber
             min={0}
             placeholder="20 m3"
@@ -102,8 +101,8 @@ export const EnergyForm = ({
         </InputLayout>
       </RowLayout>
       <StyledDivider />
-      <RowLayout align="middle" icon="icon/water.svg" title="Agua">
-        <InputLayout label="¿Cuánto es tu consumo de agua por mes?">
+      <RowLayout align="middle" icon="icon/water.svg" title="Water">
+        <InputLayout label="How much water do you consume per month?">
           <InputNumber
             min={0}
             placeholder="12 lts"
