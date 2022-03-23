@@ -73,8 +73,8 @@ export const Diet = ({ nextStep, backStep }) => {
   return (
     <>
       <Header
-        title="Sección N° 3 - Dieta"
-        subtitle="Te vamos a preguntar cuántas veces consumes cada tipo de comida a la semana. Si no estás seguro, en cada pregunta te damos el consumo promedio. Con este dato, asumiremos que cada consumo es una porción promedio para cada alimento, ni mucho ni poco."
+        title="Section N° 3 - Diet"
+        subtitle="We ask about your consumption of each type of food per week. If you are not sure, we provide the average portion to help you answer."
       />
       <ContentLayout>
         <LeftLayout>
