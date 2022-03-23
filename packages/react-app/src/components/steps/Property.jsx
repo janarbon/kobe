@@ -71,8 +71,8 @@ export const Property = ({ nextStep, backStep }) => {
   return (
     <>
       <Header
-        title="Sección N° 4 - Bienes"
-        subtitle="En la versión simplificada te preguntamos simplemente cuánto gastas al año en comprar bienes. Asumiremos una canasta promedio de compras. En la versión detallada, te preguntaremos cuánto gastas en cada cosa."
+        title="Section N° 4 - Goods"
+        subtitle="In the simplified version we simply ask you how much you spend per month on buying goods. We will assume an average shopping basket. In the detailed version, we will ask you how much you spend on each thing."
       />
       <ContentLayout>
         <LeftLayout>
