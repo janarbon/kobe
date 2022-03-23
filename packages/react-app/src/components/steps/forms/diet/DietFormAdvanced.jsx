@@ -21,11 +21,11 @@ const FirstForm = ({
 
   return (
     <>
-      <RowLayout align="middle" icon="icon/meat.svg" title="Carnes rojas">
+      <RowLayout align="middle" icon="icon/meat.svg" title="Red meat">
         <InputLayout
-          label="¿Cuántas veces consumes carne a la semana? (vacuno, cordero, cerdo)"
+          label="How many times do you eat red meet per week? (beef, pork, lamb)"
           tooltip
-          tooltipText="El promedio es 5 veces a la semana.">
+          tooltipText="The average is 5 times a week">
           <InputNumber
             min={0}
             placeholder="2"
@@ -37,11 +37,11 @@ const FirstForm = ({
         </InputLayout>
       </RowLayout>
       <StyledDivider />
-      <RowLayout align="middle" icon="icon/chicken.svg" title="Carnes blancas">
+      <RowLayout align="middle" icon="icon/chicken.svg" title="Poultry">
         <InputLayout
-          label="¿Cuántas veces comes a la semana? (pollo, pavo)"
+          label="How many times do you eat poultry per week?"
           tooltip
-          tooltipText="El promedio es 5 veces a la semana.">
+          tooltipText="The average is 5 times a week">
           <InputNumber
             min={0}
             placeholder="4"
@@ -56,11 +56,11 @@ const FirstForm = ({
       <RowLayout
         align="middle"
         icon="icon/fish.svg"
-        title="Pescados y mariscos">
+        title="Fish & seafood">
         <InputLayout
-          label="¿Cuántas veces consumes a la semana?"
+          label="How many times do you eat fish and seafood per week?"
           tooltip
-          tooltipText="El promedio es 3 veces a la semana.">
+          tooltipText="The average is 3 times a week">
           <InputNumber
             min={0}
             placeholder="1"
@@ -75,11 +75,11 @@ const FirstForm = ({
       <RowLayout
         align="middle"
         icon="icon/sausages.svg"
-        title="Fiambres y procesados">
+        title="Cold cuts">
         <InputLayout
-          label="¿Cuántas veces consumes a la semana?"
+          label="How many times do you eat cold cuts per week?"
           tooltip
-          tooltipText="El promedio es 5 veces a la semana.">
+          tooltipText="The average is 5 times a week">
           <InputNumber
             min={0}
             placeholder="1"
@@ -111,11 +111,11 @@ export const DietFormAdvanced = ({
     <>
       <FirstForm formData={formData} onChange={onChange} />
       <StyledDivider />
-      <RowLayout align="middle" icon="icon/eggs.svg" title="Huevos">
+      <RowLayout align="middle" icon="icon/eggs.svg" title="Eggs">
         <InputLayout
-          label="¿Cuántas veces consumes a la semana?"
+          label="How many times do you eat eggs per week?"
           tooltip
-          tooltipText="El promedio es 5 veces a la semana.">
+          tooltipText="The average is 5 times a week">
           <InputNumber
             min={0}
             placeholder="30"
@@ -127,11 +127,11 @@ export const DietFormAdvanced = ({
         </InputLayout>
       </RowLayout>
       <StyledDivider />
-      <RowLayout align="middle" icon="icon/bread.svg" title="Pan y harinas">
+      <RowLayout align="middle" icon="icon/bread.svg" title="Bread & cereals">
         <InputLayout
-          label="¿Cuántas veces consumes por semana?"
+          label="How many times do you eat bread and cereals per week?"
           tooltip
-          tooltipText="El promedio es 7 veces a la semana.">
+          tooltipText="The average is 7 times a week">
           <InputNumber
             min={0}
             placeholder="12"
@@ -143,11 +143,11 @@ export const DietFormAdvanced = ({
         </InputLayout>
       </RowLayout>
       <StyledDivider />
-      <RowLayout align="middle" icon="icon/milk.svg" title="Lácteos">
+      <RowLayout align="middle" icon="icon/milk.svg" title="Dairy">
         <InputLayout
-          label="¿Cuántas veces consumes por semana?"
+          label="How many times do you eat dairy per week?"
           tooltip
-          tooltipText="El promedio es 8 veces a la semana.">
+          tooltipText="The average is 8 times a week">
           <InputNumber
             min={0}
             placeholder="12"
@@ -162,11 +162,11 @@ export const DietFormAdvanced = ({
       <RowLayout
         align="middle"
         icon="icon/vegetables.svg"
-        title="Fruta y vegetales">
+        title="Fruits & vegetables">
         <InputLayout
           label="¿Cuántas veces consumes por semana?"
           tooltip
-          tooltipText="El promedio es 7 veces a la semana.">
+          tooltipText="How many times do you eat fruits and vegetables per week?">
           <InputNumber
             min={0}
             placeholder="12"
@@ -181,11 +181,11 @@ export const DietFormAdvanced = ({
       <RowLayout
         align="middle"
         icon="icon/snacks.svg"
-        title="Snacks, bebidas y otros">
+        title="Snacks, softdrinks & others">
         <InputLayout
-          label="¿Cuántas veces consumes por semana?"
+          label="How many times do you eatsnacks, softdrinks and others per week?"
           tooltip
-          tooltipText="El promedio es 12 veces a la semana.">
+          tooltipText="The average is 12 times a week">
           <InputNumber
             min={0}
             placeholder="12"
