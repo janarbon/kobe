@@ -24,15 +24,13 @@ export const Home = ({ nextStep }) => {
     <>
       <StyledRow justify="center">
         <Col>
-          <Title level={2}>Calcula tus emisiones</Title>
+          <Title level={2}>Calculate your emissions</Title>
         </Col>
       </StyledRow>
       <StyledRow justify="center">
         <Col>
           <Text>
-            Contesta esta breve encuesta sobre tu estilo de vida, esto nos
-            ayudará a conocerte más en detalle y que puedas saber la huella que
-            generas en relación a este.
+            Answer this brief survey about your lifestyle and get to know your footprint. It will take you from 3 to 10 minutes.
           </Text>
         </Col>
       </StyledRow>
@@ -51,7 +49,7 @@ export const Home = ({ nextStep }) => {
       </StyledRow>
       <StyledRow justify="center">
         <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 6 }}>
-          <Text>Correo electrónico *</Text>
+          <Text>Email *</Text>
           <Input
             placeholder="mail@mail.com"
             value={email}
@@ -63,13 +61,13 @@ export const Home = ({ nextStep }) => {
         <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 6 }}>
           <Row>
             <Col span={24}>
-              <Text>¿En qué país vives? *</Text>
+              <Text>¿Where do you live? *</Text>
             </Col>
           </Row>
           <Row>
             <Col span={24}>
               <Select
-                placeholder="Selecciona tu país"
+                placeholder="Choose your country"
                 style={{ width: '100%' }}
                 value={country}
                 onChange={e => setCountry(e.target.value)}
