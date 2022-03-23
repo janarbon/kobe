@@ -71,8 +71,8 @@ const Expense = ({ nextStep, backStep }) => {
   return (
     <>
       <Header
-        title="Sección N° 5 - Servicios"
-        subtitle="Igual que con los bienes, la simple sólo pregunta el gasto mensual total en CLP, mientras que la detallada es sobre cada tipo de servicio."
+        title="Section N° 5 - Services"
+        subtitle="As with goods, the simplified question only asks for the total monthly expense in USD, while the detailed one is about each type of service."
       />
       <ContentLayout>
         <LeftLayout>
