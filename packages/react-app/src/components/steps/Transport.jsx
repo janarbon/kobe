@@ -73,9 +73,8 @@ export const Transport = ({ nextStep, backStep }) => {
   return (
     <>
       <Header
-        title="Sección N° 1 - Transporte"
-        subtitle="Esta sección es muy importante, los medios de transporte son los que
-            más aportan a nuestras emisiones anuales."
+        title="Section N° 1 - Transport"
+        subtitle="This section is very important because transport is usually where we emmit the most."
       />
       <ContentLayout>
         <LeftLayout>
