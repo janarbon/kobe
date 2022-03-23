@@ -12,13 +12,13 @@ export const ExpenseForm = ({
     <RowLayout
       align="middle"
       icon="icon/cellphone-notebook.svg"
-      title="Servicios">
+      title="Services">
       <InputLayout
-        label="¿Cuánto gastas en servicios por mes?"
+        label="How much do you spend in services per month?"
         tooltip
-        tooltipText="Considera que el promedio de gastos en servicios a nivel nacional es de $ 180.750 CLP">
+        tooltipText="Average is approximately $300 USD>
         <InputPrice
-          placeholder="150.000 CLP"
+          placeholder="300 USD"
           value={spendOnServicesPerMonth}
           onChange={value => onChange(value, 'spendOnServicesPerMonth')}
         />
