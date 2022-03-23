@@ -16,10 +16,10 @@ export const Advanced = ({
   return (
     <Row align="middle" style={{ marginBottom: '10px' }}>
       <Col span={6} style={{ textAlign: 'center' }}>
-        <Text>Tipo preguntas</Text>
+        <Text>Questions</Text>
       </Col>
       <Col span={5}>
-        <Text strong>Simplificada</Text>
+        <Text strong>Simplified</Text>
       </Col>
       <Col span={4}>
         <Switch
@@ -28,7 +28,7 @@ export const Advanced = ({
         />
       </Col>
       <Col span={9}>
-        <Text strong>Avanzada</Text>
+        <Text strong>Advanced</Text>
       </Col>
     </Row>
   )
