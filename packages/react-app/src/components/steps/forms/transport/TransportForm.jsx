@@ -23,29 +23,29 @@ export const TransportForm = ({
 
   return (
     <>
-      <RowLayout align="middle" icon="icon/car.svg" title="Automóvil">
+      <RowLayout align="middle" icon="icon/car.svg" title="Car">
         <Row>
           <Col span={12}>
-            <SelectLayout label="Tipo de combustible">
+            <SelectLayout label="Fuel">
               <Select
-                placeholder="Selecciona tipo"
+                placeholder="Type"
                 style={{ width: '100%' }}
                 size="large"
                 value={fuelType}
                 onChange={value => onChange(value, 'fuelType')}
               >
-                <Option value="1">Gasolina</Option>
-                <Option value="2">Diésel</Option>
-                <Option value="3">Eléctrico</Option>
+                <Option value="1">Gasoline</Option>
+                <Option value="2">Diesel</Option>
+                <Option value="3">Electric</Option>
               </Select>
             </SelectLayout>
           </Col>
           <Col span={12}>
             <Col span={22}>
-              <InputLayout label="Kilómetros recorridos por mes" margin={false}>
+              <InputLayout label="Km per month" margin={false}>
                 <InputNumber
                   min={0}
-                  placeholder="1.000 kms"
+                  placeholder="1000 kms"
                   size="large"
                   style={{ width: '100%' }}
                   value={monthlyKms}
@@ -57,8 +57,8 @@ export const TransportForm = ({
         </Row>
       </RowLayout>
       <StyledDivider />
-      <RowLayout align="middle" icon="icon/bus.svg" title="Transporte público">
-        <InputLayout label="Kilómetros recorridos por mes">
+      <RowLayout align="middle" icon="icon/bus.svg" title="Public transport">
+        <InputLayout label="Km per week ">
           <InputNumber
             min={0}
             placeholder="100 kms"
@@ -73,13 +73,13 @@ export const TransportForm = ({
       <RowLayout
         style={{ marginBottom: '20px' }}
         icon="icon/airplane.svg"
-        title="Avión">
+        title="Airplane">
         <TextAsk
-          text="¿Cuántos viajes cortos realizas por año?"
+          text="How many short flights per year?"
           advanced
-          endText="(Menos de 4 hrs.)"
+          endText="(Less than 4 hrs.)"
         />
-        <InputLayout label="Viajes (considera la ida y vuelta por separado)">
+        <InputLayout label="Flights (count roundtrip as two flights)">
           <Col span={12}>
             <InputNumber
               min={0}
@@ -93,15 +93,15 @@ export const TransportForm = ({
         </InputLayout>
 
         <TextAsk
-          text="¿Cuántos viajes largos realizas por año?"
+          text="How many long flights per year?"
           advanced
-          endText="(Más de 4 hrs.)"
+          endText="(More than 4 hrs.)"
         />
-        <InputLayout label="Viajes (considera la ida y vuelta por separado)">
+        <InputLayout label="Flights (count roundtrip as two flights)">
           <Col span={12}>
             <InputNumber
               min={0}
-              placeholder="10"
+              placeholder="4"
               size="large"
               style={{ width: '100%' }}
               value={airplaneTrips}
