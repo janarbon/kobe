@@ -66,11 +66,8 @@ export const Energy = ({ nextStep, backStep }) => {
   return (
     <>
       <Header
-        title="Sección N° 2 - Energía"
-        subtitle="            Tus emisiones dependerán de las personas que viven contigo. Ingresa
-            los datos totales de tu hogar para cada pregunta y nosotros al
-            calcular dividiremos esas emisiones por la cantidad de personas que
-            viven contigo. Así podrás saber las emisiones de cada uno."
+        title="Section N° 2 - Energy"
+        subtitle="            Your emissions will depend on the number of people you live with. Answer with the total data for your household and we will divide those emissions by the number of people you live with."
       />
       <ContentLayout>
         <LeftLayout>
