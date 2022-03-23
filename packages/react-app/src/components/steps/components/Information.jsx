@@ -49,81 +49,81 @@ const dataMock = [
   {
     id: '1',
     icon: 'icon/bicycle.svg',
-    title: '¿Sabías qué...',
+    title: 'Did you know...',
     text: [
       {
         id: '1',
         content:
-          '...al utilizar una bicicleta o caminar, contribuyes disminuyendo un 20% tus emisiones versus las que emite un auto promedio?',
+          '... that switching from cars to bikes cuts commuting emissions by 67%?',
       },
     ],
   },
   {
     id: '2',
     icon: 'icon/light.svg',
-    title: '¿Sabías qué...',
+    title: 'Did you know...',
     text: [
       {
         id: '1',
-        content: '...tus emisiones dependen de la matriz eléctrica de tu país?',
+        content: '... your emissions depend on the electric grid of your country?',
       },
       {
         id: '2',
         content:
-          'Hay mucho que puedes hacer para ayudar, parte por utilizar ampolletas eficientes, ellas reducen un 15% tu consumo.',
+          'But there is still much you can do to help. Start by using efficient light bulbs, they need 90% less electricity to produce the same light.',
       },
       {
         id: '3',
-        content: '¿Conoces otras formas de ayudar?',
+        content: '',
       },
     ],
   },
   {
     id: '3',
     icon: 'icon/food.svg',
-    title: '¿Sabías qué...',
+    title: 'Did you know...',
     text: [
       {
         id: '1',
-        content: '...1 kg de carne roja equivale a 2 meses de ducha?',
+        content: '... that if everyone chose to go vegan, global farmland use could be reduced by 75%.',
       },
       {
         id: '2',
         content:
-          'Por esta y otras razones, es importante reducir nuestro consumo de carnes y poder comprar aquellas que utilizan manejo regenerativo.',
+          'It would also lessen the amount of wild land lost to agriculture. How about vegan mondays?',
       },
     ],
   },
   {
     id: '4',
     icon: 'icon/eco.svg',
-    title: '¿Sabías qué...',
+    title: 'Did you know...',
     text: [
       {
         id: '1',
         content:
-          '...la manera en que consumes afecta directamente las emisiones de CO2?',
+          '... that the way you consume directly affects your CO2 footprint?',
       },
       {
         id: '2',
         content:
-          'Lo ideal es disminuir tu consumo, luego reutilizar y reciclar todo lo que puedas.',
+          'First, reduce your consumption, then reuse and recycle everything you can. Try to buy ecological brands to fuel a greener economy.',
       },
     ],
   },
   {
     id: '5',
     icon: 'icon/message.svg',
-    title: '¿Sabías qué...',
+    title: 'Did you know...',
     text: [
       {
         id: '1',
         content:
-          '...trabajar de forma remota ayuda a disminuir las emisiones de CO2?',
+          '... that working remotely helps reduce CO2 emissions?',
       },
       {
         id: '2',
-        content: 'Esto debido a que no utilizas medios de transporte, y otros.',
+        content: 'This is because you do not use means of transport, and others.',
       },
     ],
   },
